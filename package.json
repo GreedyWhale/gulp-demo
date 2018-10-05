@@ -1,0 +1,37 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "A Gulp demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV='development' gulp watch",
+    "stag": "NODE_ENV='staging' gulp",
+    "prod": "NODE_ENV='production' gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadaoOtaku/gulp-demo.git"
+  },
+  "keywords": [
+    "wxminiprogram",
+    "gulp"
+  ],
+  "author": "caisr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadaoOtaku/gulp-demo/issues"
+  },
+  "homepage": "https://github.com/MadaoOtaku/gulp-demo#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "jsonfile": "^5.0.0",
+    "replace-in-file": "^3.4.2"
+  },
+  "dependencies": {
+    "gulp-watch": "^5.0.1"
+  }
+}
