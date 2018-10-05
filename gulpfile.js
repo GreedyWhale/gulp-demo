@@ -16,21 +16,21 @@ const config = {};
 
 config.development = {
   appid: 'developmentAppid',
-  buildPath: './bulid/development/',
+  buildPath: './build/development/',
   requestOrigin: 'https://developmentOrigin/',
   projectname: '开发环境'
 }
 
 config.staging = {
   appid: 'stagingAppid',
-  buildPath: './bulid/staging/',
+  buildPath: './build/staging/',
   requestOrigin: 'https://stagingOrigin/',
   projectname: '预发布环境'
 }
 
 config.production = {
   appid: 'productionAppid',
-  buildPath: './bulid/production/',
+  buildPath: './build/production/',
   requestOrigin: 'https://productionOrigin/',
   projectname: '正式环境'
 }
